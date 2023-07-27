@@ -1,0 +1,53 @@
+/*useful functions in c++*/
+
+std::vector
+╔══════════════════════╦══════════════════════════════════════════════════════════╗
+║        Function              ║                 Description                                                    ║
+╠══════════════════════╬══════════════════════════════════════════════════════════╣
+║    size()                    ║ Returns the number of elements in the vector.                                  ║
+║    empty()                   ║ Checks if the vector is empty.                                                 ║
+║    push_back()               ║ Adds an element at the end of the vector.                                      ║
+║    pop_back()                ║ Removes the last element from the vector.                                      ║
+║    clear()                   ║ Removes all elements from the vector.                                          ║
+║    front()                   ║ Returns a reference to the first element of the vector.                        ║
+║    back()                    ║ Returns a reference to the last element of the vector.                         ║
+║    at()                      ║ Accesses the element at a specified position with bounds checking.             ║
+║    operator[]                ║ Accesses the element at a specified position without bounds checking.          ║
+║    begin()                   ║ Returns an iterator pointing to the first element of the vector.               ║
+║    end()                     ║ Returns an iterator referring to the past-the-end element of the vector.       ║
+║    insert()                  ║ Inserts an element at a specified position in the vector.                      ║
+║    erase()                   ║ Removes an element at a specified position from the vector.                    ║
+║    resize()                  ║ Resizes the vector to a specified number of elements.                          ║
+║    reserve()                 ║ Increases the capacity of the vector to a specified number.                    ║
+║    swap()                    ║ Swaps the contents of two vectors.                                             ║                      
+║    assign()                  ║ Replaces the contents of the vector with a specified number of elements.       ║
+║    emplace_back()            ║ Constructs an element in-place at the end of the vector.                       ║
+║    shrink_to_fit()           ║ Reduces the capacity of the vector to fit its size.                            ║
+╚══════════════════════╩══════════════════════════════════════════════════════════╝
+
+std::string
+╔══════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╗
+║        Function              ║                 Description                                                                                              ║
+╠══════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
+║    length()                  ║ Returns the number of characters in the string.                                                                          ║
+║    size()                    ║ Returns the number of characters in the string.                                                                          ║     
+║    empty()                   ║ Checks if the string is empty.                                                                                           ║
+║    clear()                   ║ Clears the contents of the string.                                                                                       ║
+║    front()                   ║ Returns a reference to the first character of the string.                                                                ║
+║    back()                    ║ Returns a reference to the last character of the string.                                                                 ║
+║    at()                      ║ Accesses the character at a specified position with bounds checking.                                                     ║
+║    operator[]                ║ Accesses the character at a specified position without bounds checking.                                                  ║
+║    c_str()                   ║ Returns a pointer to a null-terminated character array with data equivalent to the string.                               ║
+║    data()                    ║ Returns a pointer to the underlying character array.                                                                     ║
+║    begin()                   ║ Returns an iterator pointing to the first character of the string.                                                       ║
+║    end()                     ║ Returns an iterator referring to the past-the-end character of the string.                                               ║
+║    rbegin()                  ║ Returns a reverse iterator pointing to the last character of the reversed string.                                        ║
+║    rend()                    ║ Returns a reverse iterator referring to the theoretical character preceding the first character of the reversed string.  ║
+║    insert()                  ║ Inserts characters into the string at a specified position.                                                              ║
+║    erase()                   ║ Erases characters from the string at a specified position or range.                                                      ║
+║    replace()                 ║ Replaces characters in the string at a specified position or range with another string.                                  ║
+║    substr()                  ║ Returns a substring of the string.                                                                                       ║
+║    find()                    ║ Searches the string for a specified substring and returns the first occurrence.                                          ║
+║    rfind()                   ║ Searches the string for a specified substring and returns the last occurrence.                                           ║
+╚══════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+

@@ -1,0 +1,1 @@
+DesId|SourceId,MessageType,ContentId,VolumeByte,SendTime|ReciveTime,Status
